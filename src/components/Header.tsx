@@ -1,17 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Waves, MessageCircle, Map, Search, BarChart3, GitCompare, Download } from "lucide-react";
+import { useNavigate, useLocation } from "react-router-dom";
 import oceanPattern from "@/assets/ocean-pattern.jpg";
 
 const Header = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  
   const navItems = [
-    { id: "overview", label: "Overview", icon: BarChart3, active: true },
-    { id: "ai-chat", label: "AI Chat", icon: MessageCircle },
-    { id: "map", label: "Map View", icon: Map },
-    { id: "search", label: "Search", icon: Search },
-    { id: "visualize", label: "Visualize", icon: BarChart3 },
-    { id: "compare", label: "Compare", icon: GitCompare },
-    { id: "export", label: "Export", icon: Download },
+    { id: "overview", label: "Overview", icon: BarChart3, path: "/" },
+    { id: "ai-chat", label: "AI Chat", icon: MessageCircle, path: "/ai-chat" },
+    { id: "map", label: "Map View", icon: Map, path: "/map-view" },
+    { id: "search", label: "Search", icon: Search, path: "/search" },
+    { id: "visualize", label: "Visualize", icon: BarChart3, path: "/visualize" },
+    { id: "compare", label: "Compare", icon: GitCompare, path: "/compare" },
+    { id: "export", label: "Export", icon: Download, path: "/export" },
   ];
 
   return (
@@ -48,13 +52,14 @@ const Header = () => {
           {navItems.map((item) => (
             <Button
               key={item.id}
-              variant={item.active ? "default" : "ghost"}
+              variant={location.pathname === item.path ? "default" : "ghost"}
               size="sm"
               className={`flex items-center gap-2 ${
-                item.active 
+                location.pathname === item.path
                   ? "bg-primary text-primary-foreground shadow-sm" 
                   : "text-muted-foreground hover:text-foreground"
               }`}
+              onClick={() => navigate(item.path)}
             >
               <item.icon className="h-4 w-4" />
               {item.label}
