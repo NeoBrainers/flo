@@ -12,6 +12,8 @@ import Visualize from "./pages/Visualize";
 import Compare from "./pages/Compare";
 import Export from "./pages/Export";
 import NotFound from "./pages/NotFound";
+import Landing from "./pages/Landing";
+import { AuthForm } from "./components/AuthForm";
 
 const queryClient = new QueryClient();
 
@@ -23,7 +25,9 @@ const App = () => (
         <Sonner />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Index />} />
+            <Route path="/" element={<Landing />} />
+            <Route path="/signup" element={<AuthForm/>}/>
+            <Route path="/home" element = {<Index/>}/>
             <Route path="/ai-chat" element={<AiChat />} />
             <Route path="/map-view" element={<MapView />} />
             <Route path="/search" element={<Search />} />

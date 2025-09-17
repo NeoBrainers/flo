@@ -13,6 +13,11 @@ export default {
       },
     },
     extend: {
+      fontFamily:{
+        poppins: ['Poppins', 'sans-serif'],
+        playfair: ['"Playfair Display"', 'serif'],
+        condiment: ['"Condiment"', 'cursive'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
