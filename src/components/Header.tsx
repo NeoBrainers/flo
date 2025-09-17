@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Waves, MessageCircle, Map, Search, BarChart3, GitCompare, Download } from "lucide-react";
 import { useNavigate, useLocation } from "react-router-dom";
-import oceanPattern from "@/assets/ocean-pattern.jpg";
+import oceanPattern from "@/assets/ocean-pattern.png";
 
 const Header = () => {
   const navigate = useNavigate();

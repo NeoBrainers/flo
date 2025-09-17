@@ -7,6 +7,7 @@ import { useAuth } from "@/contexts/AuthContext";
 import { useRealtimeFloats } from "@/hooks/useArgoData";
 import { AuthForm } from "@/components/AuthForm";
 import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { Navigate } from "react-router-dom";
 
 const Dashboard = () => {
   const { user, loading } = useAuth();
@@ -24,7 +25,7 @@ const Dashboard = () => {
   }
 
   if (!user) {
-    return <AuthForm />;
+    return <Navigate to={"/signup"} replace />
   }
 
   return (
