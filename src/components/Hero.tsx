@@ -55,7 +55,7 @@ function Hero(){
                         <div className="relative">
                             <div className="lg:w-2/3">
                                 <p className="text-sm font-normal tracking-widest text-gray-300 uppercase">
-                                    Invest, Analyze & Grow—Powered by AI
+                                    Explore ARGO Ocean Data Instantly with AI
                                 </p>
                                 <h1 className="mt-6 text-4xl font-normal text-white sm:mt-10 sm:text-5xl lg:text-6xl xl:text-8xl">
                                     Introducing&nbsp;
@@ -64,12 +64,12 @@ function Hero(){
                                     </span>
                                 </h1>
                                 <p className="max-w-lg mt-4 text-xl font-normal text-gray-400 sm:mt-8 md:ml-20 lg:ml-20">
-                                    Navigating the world of finance can feel overwhelming—endless options, complex jargon, and uncertainty at every turn. Varasity is here to change that.
+                                    Ask questions, visualize trends, and gain insights from global ARGO float datasets
                                 </p>
                                 <div className="relative inline-flex items-center justify-center  mt-8 sm:mt-12 group">
                                     <div className="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-blue-500 to-yellow-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
                                     <a href="/home" className="relative inline-flex items-center justify-center px-8 py-3 text-base font-normal text-white bg-black border border-transparent rounded-full">
-                                        Unlock Smart Investing
+                                        Explore Ocean Insights
                                     </a>
                                 </div>
 
@@ -79,7 +79,7 @@ function Hero(){
                                             <path d="M13 7.00003H21M21 7.00003V15M21 7.00003L13 15L9 11L3 17" stroke="#f9f7f3" strokeLinecap="round" strokeLinejoin="round" />
                                         </svg>
                                         <span className="ml-2 text-base font-normal text-white">
-                                            Invest with clarity and confidence
+                                            Dive in to the world of Seas
                                         </span>
                                     </div>
                                 </div>
