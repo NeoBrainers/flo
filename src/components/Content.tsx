@@ -14,9 +14,9 @@ function Content(){
                         </div>
 
                         <div className="2xl:pl-16">
-                            <h2 className="text-2xl font-bold leading-tight text-white sm:text-2xl lg:text-4xl lg:leading-tight">AI-Powered Financial Guidance.</h2>
-                            <p className="text-xl leading-relaxed text-gray-400 mt-4">Ask any question from investment strategies to market trends and get instant, expert-level insights.</p>
-                            <p className="mt-4 text-xl leading-relaxed text-gray-400">Learn & grow — Make smarter financial decisions over time</p>
+                            <h2 className="text-2xl font-bold leading-tight text-white sm:text-2xl lg:text-4xl lg:leading-tight">Natural Language Queries</h2>
+                            <p className="text-xl leading-relaxed text-gray-400 mt-4">Ask questions about ocean data in plain English and get instant answers</p>
+                            <p className="mt-4 text-xl leading-relaxed text-gray-400">No programming skills are needed—simply ask and explore</p>
                         </div>
                     </div>
                 </div>
@@ -32,9 +32,9 @@ function Content(){
                             
                         </div>
                         <div className="2xl:pl-16 xl:col-start-auto">
-                            <h2 className="text-2xl font-bold leading-tight text-white sm:text-2xl lg:text-4xl lg:leading-tight">Real-Time Market Updates & Alerts.</h2>
-                            <p className="text-xl leading-relaxed text-gray-400 mt-4">Stay ahead with AI-curated news, stock alerts, and financial trends to make data-driven decisions.</p>
-                            <p className="mt-4 text-xl leading-relaxed text-gray-400">Varasity continuously monitors the markets, filtering out the noise and delivering only relevant, actionable insights — so you never miss an opportunity.</p>
+                            <h2 className="text-2xl font-bold leading-tight text-white sm:text-2xl lg:text-4xl lg:leading-tight">Interactive Data Insights</h2>
+                            <p className="text-xl leading-relaxed text-gray-400 mt-4">Visualize ocean patterns, float profiles, and trends directly in your browser.</p>
+                            <p className="mt-4 text-xl leading-relaxed text-gray-400">Make sense of complex ocean data with easy-to-read charts and graphs.</p>
                         </div>
 
                     </div>
@@ -51,9 +51,9 @@ function Content(){
                         
                         </div>
                         <div className="2xl:pl-16 xl:col-start-auto">
-                            <h2 className="text-2xl font-bold leading-tight text-white sm:text-2xl lg:text-4xl lg:leading-tight">Always Available, Anytime You Need</h2>
-                            <p className="text-xl leading-relaxed text-gray-400 mt-4">24/7 access to your personal AI financial assistant—no need to schedule appointments or wait for market updates.</p>
-                            <p className="mt-4 text-xl leading-relaxed text-gray-400">Finance never sleeps, and neither does your AI-powered investing partner.</p>
+                            <h2 className="text-2xl font-bold leading-tight text-white sm:text-2xl lg:text-4xl lg:leading-tight">Seamless Data Access</h2>
+                            <p className="text-xl leading-relaxed text-gray-400 mt-4">Access global ARGO float data instantly without downloading large files.</p>
+                            <p className="mt-4 text-xl leading-relaxed text-gray-400">Explore, filter, and analyze datasets with a few clicks.</p>
                         </div>
 
                     </div>

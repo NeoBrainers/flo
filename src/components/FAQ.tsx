@@ -2,10 +2,9 @@ import { useState } from "react";
 
 const faqs = [
     { question: "How do I create an account?", answer: "Creating an account is easy! Simply visit our Sign-Up page, enter your details, and follow the instructions to verify your email. Once verified, you can start using the AI assistant immediately.", id: 1 },
-    { question: "What features are included in the free plan?", answer: "The free plan provides AI-powered news updates and basic AI assistance to help you stay informed and make better financial decisions.", id: 2 },
-    { question: "What are the benefits of the premium plans?", answer: "The premium plan offers: (i) Group Chat – Create a room for up to 4 people to discuss insights. (ii) Voice-Assisted AI News – Get financial news read to you by AI.", id: 3 },
-    { question: "Can I switch between plans?", answer: "Of course! You can upgrade or downgrade your plan anytime from the billing section of your account.", id: 4 },
-    { question: " Can I cancel my subscription anytime?", answer: "Yes! You can cancel your subscription at any time from your account settings, and you’ll still have access until the end of your billing cycle.", id: 5 }];
+    { question: "How It Works?", answer: "“Get Started in 3 Easy Steps” 1. Ask a Question – Type your oceanographic query in natural language. 2. Explore Results – Receive instant answers, charts, or links to the relevant data.3. Dive Deeper – Download datasets or visualize trends directly in your browser.", id: 2 },
+    { question: "Who can use this tool?", answer: "Researchers, students, ocean enthusiasts, or anyone curious about ocean data can use it.", id: 3 },
+    { question: "Do I need to download the data?", answer: "No. You can query, explore, and visualize ARGO data directly in your browser.", id: 4 },];
 function FAQSection() {
     const [openFAQ, setOpenFAQ] = useState(null);
 
